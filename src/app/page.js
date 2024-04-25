@@ -11,7 +11,7 @@ import { SpotlightDemo } from "./components/Spotlight/SpotlightDemo";
 
 export default function Home() {
     return (
-        <div className="py-4">
+        <div className="p-4">
             <TracingBeamDemo>
                 <div className="mb-2">
                     <BackgroundBoxesDemo />
@@ -29,14 +29,7 @@ export default function Home() {
                     <LampDemo />
                 </div>
 
-                <div className="mb-2 flex justify-items-stretch flex-wrap justify-between">
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
+                <div className="mb-2 flex">
                     <MeteorsDemo />
                 </div>
 
